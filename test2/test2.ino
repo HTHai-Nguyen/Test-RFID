@@ -40,7 +40,7 @@ void loop()
     return;  
   }
   
-  Serial.print("UID của thẻ: ");   
+  Serial.print("UID: ");   
   
   for (byte i = 0; i < mfrc522.uid.size; i++) 
   { 
